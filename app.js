@@ -20,6 +20,18 @@ app.get('/end', (request, response) => {
     response.render('end');
 });
 
+app.get('/end1', (request, response) => {
+    response.render('end1');
+});
+
+app.get('/end2', (request, response) => {
+    response.render('end2');
+});
+
+app.get('/final', (request, response) => {
+    response.render('final');
+});
+
 app.listen(3000, () => {
   console.log("servers running")
 });
